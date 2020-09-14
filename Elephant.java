@@ -6,6 +6,6 @@ public class Elephant extends Pachyderm
         super(name + " the Elephant");
     }
     void eat(){
-				System.out.println(name + " eats some roots.");
+				System.out.println(getName() + " eats some roots.");
 		}
 }

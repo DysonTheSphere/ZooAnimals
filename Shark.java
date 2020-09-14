@@ -1,12 +1,14 @@
 package ZooAnimals;
 
-public class Shark extends Chrondrichthyes
+public class Shark extends Chondrichthyes
 {
-    Shark(String name){
+    Shark(String name)
+    {
         super(name + " the Shark");
     }
-    void eat(){
-				System.out.println(name + " eats some turtles.");
-		}
+    void eat()
+    {
+    	System.out.println(getName() + " eats some turtles.");
+	}
 
 }

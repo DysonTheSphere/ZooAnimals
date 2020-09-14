@@ -1,11 +1,13 @@
 package ZooAnimals;
 
-public class Ray extends Chrondrichthyes
+public class Ray extends Chondrichthyes
 {
-    Ray(String name){
+    Ray(String name)
+    {
         super(name + " the Ray");
     }
-    void eat(){
-				System.out.println(name + " eats some krill.");
-		}
+    void eat()
+    {
+    	System.out.println(getName() + " eats some krill.");
+	}
 }
