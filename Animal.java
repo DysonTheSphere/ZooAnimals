@@ -14,23 +14,23 @@ public class Animal
         return name;
     }
 	
-	void wakeUp()
+	public void wakeUp()
 	{
 		System.out.println(name + " awakens from a deep slumber.");
 	}
-	void sleep()
+	public void sleep()
 	{
 		System.out.println(name + " falls into a sleepy stupor.");
 	}
-	void makeNoise()
+	public void makeNoise()
 	{
 		System.out.println(name + " emits an audible response.");
 	}
-	void roam()
+	public void roam()
 	{
 		System.out.println(name + " roams.");
 	}
-	void eat() 
+	public void eat() 
 	{
 		System.out.println(name + " eats.");
 	}

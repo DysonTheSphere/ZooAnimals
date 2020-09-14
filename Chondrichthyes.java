@@ -2,11 +2,11 @@ package ZooAnimals;
 
 public class Chondrichthyes extends Animal
 {
-    Chondrichthyes(String name)
+    public Chondrichthyes(String name)
     {
         super(name);
     }
-    void roam()
+    public void roam()
     {
 		System.out.println(getName() + " roams in the water.");
 	}

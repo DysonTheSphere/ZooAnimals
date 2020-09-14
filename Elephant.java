@@ -2,10 +2,10 @@ package ZooAnimals;
 
 public class Elephant extends Pachyderm
 {
-    Elephant(String name){
+    public Elephant(String name){
         super(name + " the Elephant");
     }
-    void eat(){
+    public void eat(){
 				System.out.println(getName() + " eats some roots.");
 		}
 }

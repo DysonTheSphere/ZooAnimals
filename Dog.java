@@ -2,17 +2,17 @@ package ZooAnimals;
 
 public class Dog extends Canine
 {
-	Dog(String name)
+	public Dog(String name)
 	{
-		super(name + "the Dog");
+		super(name + " the Dog");
 	}
 	
-	void makeNoise()
+	public void makeNoise()
 	{
 		System.out.println(getName() + " gives a playful bark as it wags it's tail.");
 	}
 	
-	void dig()
+	public void dig()
 	{
 		System.out.println(super.getName() + " digs a huge hole in the earth.");
 	}

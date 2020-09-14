@@ -2,18 +2,18 @@ package ZooAnimals;
 
 public class Pachyderm extends Animal
 {
-    Pachyderm(String name)
+    public Pachyderm(String name)
     {
         super(name);
     }
 
-    void roam(){
-        System.out.println(name + " roams in the grasslands.");
+    public void roam(){
+        System.out.println(getName() + " roams in the grasslands.");
     }
 
-    void charge()
+    public void charge()
     {
-        System.out.println(name + " decides to charge.");
+        System.out.println(getName() + " decides to charge.");
     }
 
 }

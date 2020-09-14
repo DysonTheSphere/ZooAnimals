@@ -2,10 +2,10 @@ package ZooAnimals;
 
 public class Rhino extends Pachyderm
 {
-    Rhino(String name){
+    public Rhino(String name){
         super(name + " the Rhino");
     }
-    void eat()
+    public void eat()
     {
 		System.out.println(getName() + " eats some fruit.");
 	}

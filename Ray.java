@@ -2,11 +2,11 @@ package ZooAnimals;
 
 public class Ray extends Chondrichthyes
 {
-    Ray(String name)
+    public Ray(String name)
     {
         super(name + " the Ray");
     }
-    void eat()
+    public void eat()
     {
     	System.out.println(getName() + " eats some krill.");
 	}

@@ -2,11 +2,11 @@ package ZooAnimals;
 
 public class Hippo extends Pachyderm
 {
-    Hippo(String name)
+    public Hippo(String name)
     {
         super(name + " the Hippo");
     }
-    void eat()
+    public void eat()
     {
 		System.out.println(getName() + " eats some grass.");
 	}

@@ -2,12 +2,12 @@ package ZooAnimals;
 
 public class Feline extends Animal
 {
-	Feline(String name)
+	public Feline(String name)
 	{
 		super(name);
 	}
 	
-	void makeNoise()
+	public void makeNoise()
 	{
 		System.out.println(getName() + " purrs violently.");
 	}
