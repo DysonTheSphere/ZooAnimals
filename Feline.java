@@ -6,4 +6,9 @@ public class Feline extends Animal
 	{
 		super(name);
 	}
+	
+	void makeNoise()
+	{
+		System.out.println(getName() + " purrs violently.");
+	}
 }

@@ -7,8 +7,13 @@ public class Dog extends Canine
 		super(name + "the Dog");
 	}
 	
+	void makeNoise()
+	{
+		System.out.println(getName() + " gives a playful bark as it wags it's tail.");
+	}
+	
 	void dig()
 	{
-		System.out.println(super.getName() + "digs a huge hole in the earth.");
+		System.out.println(super.getName() + " digs a huge hole in the earth.");
 	}
 }
