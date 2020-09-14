@@ -1,6 +1,6 @@
 package ZooAnimals;
 
-public class Hippo 
+public class Hippo extends Pachyderm
 {
 
 }

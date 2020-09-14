@@ -1,6 +1,6 @@
 package ZooAnimals;
 
-public class Tiger 
+public class Tiger extends Feline
 {
 
 }

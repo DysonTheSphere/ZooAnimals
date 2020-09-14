@@ -1,6 +1,6 @@
 package ZooAnimals;
 
-public class Elephant 
+public class Elephant extends Pachyderm
 {
 
 }

@@ -1,6 +1,6 @@
 package ZooAnimals;
 
-public class Rhino 
+public class Rhino extends Pachyderm
 {
 
 }

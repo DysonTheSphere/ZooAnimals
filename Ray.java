@@ -1,6 +1,6 @@
 package ZooAnimals;
 
-public class Ray 
+public class Ray extends Chonrichthyes
 {
 
 }

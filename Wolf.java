@@ -1,6 +1,6 @@
 package ZooAnimals;
 
-public class Wolf 
+public class Wolf extends Canine
 {
 
 }

@@ -1,6 +1,9 @@
 package ZooAnimals;
 
-public class Shark 
+public class Shark extends Chondrichthyes
 {
-
+	Shark(String name)
+	{
+		super(name);
+	}
 }
