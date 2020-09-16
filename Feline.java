@@ -11,4 +11,7 @@ public class Feline extends Animal
 	{
 		System.out.println(getName() + " purrs violently.");
 	}
+	public void roam(){
+        	System.out.println(getName() + " roams in the forest.");
+    	}
 }
