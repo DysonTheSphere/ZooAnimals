@@ -6,6 +6,7 @@ public class Cat extends Feline
 	{
 		super(name + " the Cat");
 	}
+	// this is an example of polymorphism
 	public void eat()
     	{
     		System.out.println(getName() + " eats some rabbits.");
