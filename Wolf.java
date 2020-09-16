@@ -11,4 +11,8 @@ public class Wolf extends Canine
 	{
 		System.out.println(getName() + " makes a loud grumble as if it wants to eviscerate an animal.");
 	}
+	 public void eat()
+    	{
+    		System.out.println(getName() + " eats some sheep.");
+	}
 }
