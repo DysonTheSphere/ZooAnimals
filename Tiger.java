@@ -6,4 +6,8 @@ public class Tiger extends Feline
 	{
 		super(name + " the Tiger");
 	}
+	public void eat()
+    	{
+    		System.out.println(getName() + " eats some deer.");
+	}
 }
