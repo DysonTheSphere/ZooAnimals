@@ -11,4 +11,8 @@ public class Lion extends Feline
 	{
 		System.out.println(getName() + "heaves a mighty roar!");
 	}
+	public void eat()
+    	{
+    		System.out.println(getName() + " eats some antelopes.");
+	}
 }
