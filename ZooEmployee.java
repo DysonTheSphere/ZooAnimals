@@ -37,6 +37,7 @@ public class ZooEmployee extends ZooKeeper
 		for (ZooAnimals.Animal a : zoo)
 		{
 			System.out.println("Zookeeper feeds " + a.getName());
+			a.eat();
 		}
 	}
 
