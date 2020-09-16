@@ -1,5 +1,6 @@
 package ZooAnimals;
 
+// this is an abstract class
 public class Animal 
 {
 	private String name;
