@@ -3,6 +3,7 @@ package ZooAnimals;
 // this is an abstract class
 public class Animal 
 {
+	// this is an example of encapsulation, as well as identity (an animal's name distinguishes it from all other animals)
 	private String name;
 
 	public Animal(String name)
