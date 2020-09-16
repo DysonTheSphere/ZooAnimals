@@ -16,4 +16,8 @@ public class Dog extends Canine
 	{
 		System.out.println(super.getName() + " digs a huge hole in the earth.");
 	}
+	public void eat()
+    	{
+    		System.out.println(getName() + " eats some bones.");
+	}
 }
